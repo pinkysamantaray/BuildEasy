@@ -23,7 +23,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 Before running the tests make sure you are serving the app via `ng serve`.
 
 
-# angular-fullstack
+# Angular-fullstack
 This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 4.2.2.
 ### Prerequisites
 - [Node.js and npm](nodejs.org) Node >= 4.x.x, npm >= 2.x.x
