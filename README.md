@@ -37,3 +37,10 @@ This project was generated with the [Angular Full-Stack Generator](https://githu
 Run `gulp build` for building and `gulp serve` for preview.
 ## Testing
 Running `npm test` will run the unit tests with karma.
+## Deployment(https://angular-fullstack.github.io/deployment/)
+# Manual (Linux server)
+- Run gulp build. This will build your project into the dist folder by default.
+- Zip up the contents of your dist folder and send it off to your server.
+- On your server, unzip your built files somewhere on the disk. Ex: in a myproj folder.
+    $ cd myproj
+    $ NODE_ENV=production node ./server
