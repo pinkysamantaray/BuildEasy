@@ -48,7 +48,7 @@ Follow: (https://angular-fullstack.github.io/deployment/)
     `$ node ./server`
     
 
-# React
+# React-fullstack
 ### Prerequisites
 - [Node.js and npm](nodejs.org) Node >=6.5, npm >=3.10
 - [Yarn](https://yarnpkg.com/en/docs/install) 
