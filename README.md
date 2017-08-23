@@ -12,13 +12,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Prerequisites
 - install angular-cli
  `npm install -g @angular/cli`
-## Development server
+### Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-## Build
+### Build
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-## Running unit tests
+### Running unit tests
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-## Running end-to-end tests
+### Running end-to-end tests
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
 
@@ -33,17 +33,19 @@ This project was generated with the [Angular Full-Stack Generator](https://githu
 1. Run `npm install` to install server dependencies.
 2. Run `mongod` in a separate shell to keep an instance of the MongoDB Daemon running
 3. Run `gulp serve` to start the development server. It should automatically open the client in your browser when ready.
-## Build & development
+### Build & development
 Run `gulp build` for building and `gulp serve` for preview.
-## Testing
+### Testing
 Running `npm test` will run the unit tests with karma.
-## Deployment(https://angular-fullstack.github.io/deployment/)
-# Manual (Linux server)
+### Deployment
+Follow: (https://angular-fullstack.github.io/deployment/)
+#### Manual (Linux server)
 - Run gulp build. This will build your project into the dist folder by default.
 - Zip up the contents of your dist folder and send it off to your server.
 - On your server, unzip your built files somewhere on the disk. Ex: in a myproj folder.
-    $ cd myproj
-    $ NODE_ENV=production node ./server
+    `$ cd myproj`
+    `$ SET NODE_ENV=production`
+    `$ node ./server`
     
 
 # React
